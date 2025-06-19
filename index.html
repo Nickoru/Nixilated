@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicole Barrientos | Web Developer</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+</head>
+<body>
+
+    <!-- ================== HEADER ================== -->
+    <header>
+        <div class="container nav-container">
+            <a href="#" class="logo">Nixilated</a>
+            <div class="nav-right">
+                <nav>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#experience">Journey</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact" class="nav-contact-button">Contact</a></li>
+                    </ul>
+                </nav>
+                <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle light and dark mode">
+                    <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 20C7.58172 20 4 16.4183 4 12C4 7.58172 7.58172 4 12 4C16.4183 4 20 7.58172 20 12C20 16.4183 16.4183 20 12 20ZM11 1H13V3H11V1ZM11 21H13V23H11V21ZM3.51472 4.92893L4.92893 3.51472L6.34315 4.92893L4.92893 6.34315L3.51472 4.92893ZM17.6569 19.0711L19.0711 17.6569L20.4853 19.0711L19.0711 20.4853L17.6569 19.0711ZM19.0711 6.34315L20.4853 4.92893L19.0711 3.51472L17.6569 4.92893L19.0711 6.34315ZM4.92893 17.6569L6.34315 19.0711L4.92893 20.4853L3.51472 19.0711L4.92893 17.6569ZM21 11H23V13H21V11ZM1 11H3V13H1V11Z"></path></svg>
+                    <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M11.3807 2.01904C12.0117 2.15857 12.593 2.51639 13.0645 3.06385C14.8515 5.22186 14.4735 8.5233 12.3155 10.3103C10.1575 12.0973 6.85601 12.4753 4.698 10.6883C4.22517 10.3014 3.91139 9.77174 3.75389 9.17294C2.10919 12.2631 3.20843 16.1133 6.29864 17.758C9.38885 19.4027 13.239 18.3035 14.8837 15.2133C15.7061 13.6682 15.8943 11.8432 15.441 10.1601C17.476 10.8433 19.0881 12.4554 19.7713 14.4904C20.8033 17.6136 19.1037 21.0182 15.9805 22.0502C12.8573 23.0822 9.45274 21.3826 8.42074 18.2594C8.21333 17.6405 8.22384 16.9852 8.45184 16.38C8.54426 16.1219 8.23234 15.9157 7.99419 16.059C3.21376 18.8122 1.18744 23.9106 4.01904 28.6193"></svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- ================== HERO SECTION ================== -->
+        <section id="home" class="hero">
+            <div class="container hero-content">
+                <h1 class="hero-h1">I'm Nicole Barrientos</h1>
+                <p class="hero-subtitle">A beginner in tech who enjoys building simple, user-friendly digital experiences and is always excited to learn more.</p>
+                <a href="#projects" class="cta-button hero-cta">See My Projects</a>
+            </div>
+        </section>
+
+        <!-- ================== ABOUT SECTION ================== -->
+        <section id="about">
+            <div class="container about-container">
+                <div class="about-image animate-on-scroll">
+                    <img src="./assets/pic.png" alt="A professional headshot of Nicole Barrientos">
+                </div>
+                <div class="about-text animate-on-scroll">
+                    <h2>A Little About Me</h2>
+                    <p>I'm a passionate Computer Science student from the Polytechnic University of the Philippines – Manila. I'm always willing to learn and improve my skills as I grow in the field of technology. I enjoy exploring how things work, especially in tech, and I'm excited to keep discovering new knowledge and experiences that can help me become better in what I do.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================== EXPERIENCE SECTION ================== -->
+        <section id="experience">
+            <div class="container">
+                <h2 class="section-title animate-on-scroll">Tech Experiences</h2>
+                <div class="experience-slider-container animate-on-scroll">
+                    <div class="experience-slider">
+                        <!-- Slide 1 -->
+                        <div class="slide active">
+                            <img src="./assets/maya.jpg" alt="Experience at Event 1">
+                            <div class="slide-caption">
+                                <h3>Women Who Code</h3>
+                                <p>Cybersecurity Playground was a fun and learning event held on September 16, 2023. It was supported by Maya and helped students and tech lovers learn about online safety through games, activities, and short talks.</p>
+                            </div>
+                        </div>
+                        <!-- Slide 2 -->
+                        <div class="slide">
+                            <img src="./assets/comday.jpg" alt="Experience at Event 2">
+                            <div class="slide-caption">
+                                <h3>Student Community Day</h3>
+                                <p>A full-day event for students to learn about AWS cloud computing through talks by AWS professionals and PUP student leaders.</p>
+                            </div>
+                        </div>
+                        <!-- Slide 3 -->
+                        <div class="slide">
+                            <img src="./assets/bgc.jpg" alt="Experience at Event 3">
+                            <div class="slide-caption">
+                                <p>Through joining the event, I was able to meet new people, connect with fellow students, and learn more about cloud technology together.</p>
+                            </div>
+                        </div>
+                        <div class="slide active">
+                            <img src="./assets/aws.jpg" alt="Experience at Event 1">
+                            <div class="slide-caption">
+                                <p>I became the Relations Secretary of AWS Cloud Club – PUP Manila, where I helped manage communication, build partnerships, and connect with students and organizations. This role allowed me to improve my leadership and teamwork skills while growing in the tech community.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-dots"></div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ================== SKILLS SECTION ================== -->
+        <section id="skills">
+            <div class="container">
+                <h2 class="section-title animate-on-scroll">Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-item animate-on-scroll"><i class="devicon-html5-plain"></i><span>HTML</span></div>
+                    <div class="skill-item animate-on-scroll"><i class="devicon-css3-plain"></i><span>CSS</span></div>
+                    <div class="skill-item animate-on-scroll"><i class="devicon-javascript-plain"></i><span>JavaScript</span></div>
+                    <div class="skill-item animate-on-scroll"><i class="devicon-mysql-plain-wordmark"></i><span>MySQL</span></div>
+                    <div class="skill-item animate-on-scroll"><i class="devicon-java-plain"></i><span>Java</span></div>
+                    <div class="skill-item animate-on-scroll"><i class="devicon-c-plain"></i><span>C</span></div>
+                    <div class="skill-item animate-on-scroll"><i class="devicon-python-plain"></i><span>Python</span></div>
+                    <div class="skill-item animate-on-scroll"><i class="devicon-figma-plain"></i><span>Figma</span></div>
+                    <div class="skill-item animate-on-scroll"><i class="devicon-canva-original"></i><span>Canva</span></div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ================== CERTIFICATES SECTION ================== -->
+        <section id="certificates">
+            <div class="container">
+                <h2 class="section-title animate-on-scroll">Certificates & Badges</h2>
+                <div class="certificate-grid">
+                        <a href="https://media.licdn.com/dms/document/media/v2/D562DAQEJXkA1KYyMkw/profile-treasury-document-pdf-analyzed/profile-treasury-document-pdf-analyzed/0/1735914804231?e=1751500800&v=beta&t=beLJIGN88Faup_WsKNa9Wv4ESv7UBiEOCeuDLarBa3c" target="_blank" class="certificate-item animate-on-scroll" id="fortinet-certificate">
+                            <img src="./assets/fortinet.jpg" alt="Placeholder Badge">
+                            <h3>Fortinet Certified Fundamentals in Cybersecurity</h3>
+                            <p>Issued Jan 2025 · Expires Jan 2027</p>
+                        </a>
+                        <a href="https://media.licdn.com/dms/document/media/v2/D562DAQG1qL6jJnPKEA/profile-treasury-document-pdf-analyzed/B56ZeGRTSUG0Ag-/0/1750304375239?e=1751500800&v=beta&t=4HjreD4Bo2T1zpfMjIQdQWdntqXyizxoDwkq9WZA2A4" target="_blank" class="certificate-item animate-on-scroll">
+                            <img src="./assets/associate.png" alt="Placeholder Badge">
+                            <h3>Fortinet Certified Associate in Cybersecurity</h3>
+                            <p>Issued Jan 2025 · Expires Jan 2027.</p>
+                        </a>
+                        <a href="https://media.licdn.com/dms/document/media/v2/D562DAQHUK01x1t7ywA/profile-treasury-document-pdf-analyzed/B56ZeGW9BkHUAk-/0/1750305857579?e=1751500800&v=beta&t=AVkrTyPjIWwvgoBh8ISRCNwGcNQp1zsNqgHUI_bMPlM" target="_blank" class="certificate-item animate-on-scroll">
+                            <img src="./assets/essentials.png" alt="Placeholder Badge">
+                            <h3>AWS Cloud Practitioner Essentials</h3>
+                            <p>Completed: June 05, 2025.</p>
+                        </a>
+                        <a href="https://media.licdn.com/dms/document/media/v2/D562DAQHELxofIVD9Ng/profile-treasury-document-pdf-analyzed/B56ZeGYYjHH8Ao-/0/1750306231452?e=1751500800&v=beta&t=2ft5z4sH1JhUphKBb2fbcCEOpB8lP0ywgKnHpIK-jvg" target="_blank" class="certificate-item animate-on-scroll">
+                            <img src="./assets/intro.png" alt="Placeholder Badge">
+                            <h3>Introduction to Cybersecurity</h3>
+                            <p>Issued June 12, 2025.</p>
+                        </a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ================== EDUCATION SECTION ================== -->
+        <section id="education">
+            <div class="container">
+                <h2 class="section-title animate-on-scroll">Education</h2>
+                <div class="education-timeline">
+
+            <!-- Timeline Item 1 (Defaults to left side) -->
+                    <div class="education-item animate-on-scroll">
+                        <div class="education-dot"></div>
+                        <div class="education-content">
+                            <h4 class="education-level">Tertiary</h4>
+                            <h3>Polytechnic University of the Philippines - Manila</h3>
+                            <p class="education-meta">Bachelor of Science in Computer Science | 2021 - Present</p>
+                        </div>
+                    </div>
+
+            <!-- Timeline Item 2 (Add class="timeline-item-right" to align right) -->
+                    <div class="education-item timeline-item-right animate-on-scroll">
+                        <div class="education-dot"></div>
+                        <div class="education-content">
+                            <h4 class="education-level">Senior High School</h4>
+                            <h3>Jarmmeth College Inc. - Bulacan</h3>
+                            <p class="education-meta">With High Honors Academic Achievement | 2020 - 2022</p>
+                        </div>
+                    </div>
+            
+            <!-- Timeline Item 3 (Defaults to left side) -->
+                    <div class="education-item animate-on-scroll">
+                        <div class="education-dot"></div>
+                        <div class="education-content">
+                            <h4 class="education-level">Junior High School</h4>
+                            <h3>Jarmmeth Academy - Bulacan</h3>
+                            <p class="education-meta">With High Honors Academic Achievement | 2016 - 2020</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ================== PROJECTS SECTION ================== -->
+        <section id="projects">
+            <div class="container">
+                <h2 class="section-title animate-on-scroll">Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-item animate-on-scroll">
+                        <img src="./assets/Proj1.png" alt="Screenshot of Project One">
+                        <h3>TenantFlow</h3>
+                        <p>Information Management Final Project</p>
+                        <button class="project-link" data-title="TenantFlow" data-description="A comprehensive web application designed to streamline rental property management. It allows landlords to track tenants, manage leases, and handle maintenance requests efficiently. The front-end was built with a focus on a clean and intuitive user interface." data-tech="HTML, CSS, JavaScript, Svelte" data-link="https://github.com/Nickoru/tenantflow-main">View Project →</button>
+                    </div>
+                    <div class="project-item animate-on-scroll">
+                        <img src="./assets/proj2.png" alt="Screenshot of Project Two">
+                        <h3>Optimax</h3>
+                        <p>Design and Analysis of Algorithms Final project</p>
+                        <button class="project-link" data-title="Optimax" data-description="A budget optimization tool based on the Branch and Bound Knapsack Algorithm. Developed for a Design and Analysis of Algorithms course, it helps users choose the best set of items within a limited budget for maximum value." data-tech="HTML, CSS, JavaScript, TypeScript, Svelte" data-link="https://github.com/Nickoru/optimax-main">View Project →</button>
+                    </div>
+                    <div class="project-item animate-on-scroll">
+                        <img src="./assets/proj3.png" alt="Screenshot of Project Three">
+                        <h3>Seoul Bites</h3>
+                        <p>Web Development Project</p>
+                        <button class="project-link" data-title="Seoul Bites" data-description="A food-themed website created as a Web Development midterm project. It features a clean, mobile-friendly design that showcases popular Korean dishes with engaging visuals." data-tech="HTML, CSS, JavaScript" data-link="https://github.com/dotBisch/Seoul-Bites">View Project →</button>
+                    </div>
+                    <div class="project-item animate-on-scroll">
+                        <img src="./assets/proj4.png" alt="Screenshot of Project Four">
+                        <h3>Scroll or Scholar?</h3>
+                        <p>Web Development Project</p>
+                        <button class="project-link" data-title="Scroll or Scholar?" data-description="A web game developed for a Web Development project. “Scroll” features meme-style quizzes, while “Scholar” highlights real tech events in the Philippines from 2024 to 2025. It combines humor and learning in a fun and interactive experience." data-tech="HTML, CSS, JavaScript" data-link="https://yasminmomo.github.io/project-scroll-or-scholar/?fbclid=IwY2xjawLBIy9leHRuA2FlbQIxMABicmlkETFFOHhSR1JFQk52UlZMcXhxAR65wI9yy5RUsAZykGvhoN3GyAm5hDuBe0WCIztk4Qi9ZIWk-ITCpu-u8jJ9rQ_aem_BNjVqb8fsyf8_yZBy_Rg0A">View Project →</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ================== CONTACT SECTION ================== -->
+<!-- ================== UPDATED CONTACT SECTION (WITH FORMSPREE) ================== -->
+<section id="contact">
+    <div class="container contact-container animate-on-scroll">
+        <div class="contact-text">
+            <h2>Get in Touch</h2>
+            <p>Have a question or a project in mind? Fill out the form, and I'll get back to you. I'm always open to discussing new opportunities and collaborations.</p>
+        </div>
+
+        <form class="contact-form" action="https://formspree.io/f/manjdywd" method="POST">
+            
+            <div class="form-group">
+                <label for="name">Name</label>
+                <!-- The 'name' attribute is important for Formspree -->
+                <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Your Email</label>
+                <!-- The 'name' attribute must be "email" for the "Reply To" feature -->
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="message">Message</label>
+                <!-- The 'name' attribute can be "message" or anything else -->
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+
+            <button type="submit" class="cta-button">Send Message</button>
+        </form>
+    </div>
+</section>
+    
+    <!-- ================== FOOTER ================== -->
+    <footer id="footer">
+        <div class="container footer-container">
+            <div class="footer-copyright">
+                <a href="#" class="logo">Nixilated</a>
+                <p>© 2025 Nicole Barrientos. All Rights Reserved.</p>
+                <p>email: nclbrrnts24@gmail.com</p>
+            </div>
+            <div class="footer-social">
+                <h4>Let's Connect!</h4>
+                <div class="social-links">
+                    <a href="https://github.com/Nickoru">GitHub</a>
+                    <a href="https://www.linkedin.com/in/nixilated/">LinkedIn</a>
+                    <a href="https://www.facebook.com/nicki.lated/">Facebook</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- ================== MODALS & UTILITIES ================== -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">×</span>
+            <h2 id="modal-title"></h2>
+            <div class="modal-body">
+                <p id="modal-description"></p>
+                <h4>Languages Used:</h4>
+                <p id="modal-tech"></p>
+            </div>
+            <a href="#" id="modal-link" class="cta-button" target="_blank">View Project</a>
+        </div>
+    </div>
+    
+    <a href="#" id="back-to-top" class="back-to-top-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M11.9999 10.8284L7.75732 15.071L6.34311 13.6568L11.9999 8L17.6568 13.6568L16.2426 15.071L11.9999 10.8284Z"></path></svg>
+    </a>
+    
+    <script src="script.js"></script>
+</body>
+</html>
